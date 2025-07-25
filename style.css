@@ -1,38 +1,72 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'poppins',sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
 }
-body{
-    background-color: rgba(0, 0, 0, 0.8);
-    text-transform: capitalize;
+body {
+  background-color: rgba(0, 0, 0, 0.8);
+  text-transform: capitalize;
 }
-.container{
-    background-color: black;
+#header {
+  height: 100vh;
+  background-color: black;
+  background-image: url("images/header.png");
+  background-size: cover;
+  background-position: center;
 }
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+
+.container {
+  /* background-color: black; */
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 nav ul {
-    display: flex;
-padding: 10px;
+  display: flex;
+  padding: 10px;
 }
-nav ul li{
-    list-style: none;
+nav ul li {
+  list-style: none;
+  padding: 10px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+nav ul li a:hover {
+  border-bottom: 3px solid #ce1666;
+  cursor: pointer;
+}
+.logo {
+  width: 100px;
+  height: auto;
+  padding-left:10px ;
+}
+
+.cta{
+    color: white;
+    margin-top: 25%;
+    padding-left:10px ;
+
+}
+.cta p {
+    color: gray;
+    padding: 5px;
+}
+.cta button{
+    border: none;
+    border-radius: 15px;
+    background-color: #ce1666;
+    font-weight: bold;
     padding: 10px;
 }
-nav ul li a{
-    text-decoration: none;
+.cta button:hover{
     color: white;
-    font-weight: 500;
+    cursor: pointer;
 }
-nav ul li a:hover{
-    border-bottom: 3px solid #ce1666;
-    
-}
-.logo{
-width: 100px;
-height: auto;
+.name{
+    color: #ce1666;
 }
