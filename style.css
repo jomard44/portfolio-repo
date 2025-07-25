@@ -56,14 +56,14 @@ nav ul li a:hover {
     color: gray;
     padding: 5px;
 }
-.cta button{
+button{
     border: none;
     border-radius: 15px;
     background-color: #ce1666;
     font-weight: bold;
     padding: 10px;
 }
-.cta button:hover{
+button:hover{
     color: white;
     cursor: pointer;
 }
@@ -105,4 +105,41 @@ nav ul li a:hover {
 .skills ul li {
     list-style: none;
     padding: 5px;
+}
+
+#projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top:50px;
+    color: white;
+
+}
+
+
+.project-card img{
+  width: 400px;
+  height: auto;
+  border-radius: 15px;
+  
+}
+.project-text{
+   padding-left: 10px;
+}
+.project-text p{
+    padding-top: 5px;
+}
+.project-text a{
+    text-decoration: none;
+    color: white;
+    border-bottom: #ce1666 2px solid;
+}
+.project-text a:hover{
+    cursor: pointer;
+    color: #ce1666;
+}
+.project-btn{
+    margin-top: 20px;
+    margin-left: 40%;
 }
